@@ -13,7 +13,7 @@ public protocol TypeIterable {
 }
 
 extension TypeIterable {
-  func allProperties() throws -> [String: Any] {
+  public func allProperties() throws -> [String: Any] {
     
     var result: [String: Any] = [:]
     

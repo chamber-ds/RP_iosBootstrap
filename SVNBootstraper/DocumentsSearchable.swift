@@ -8,11 +8,11 @@
 
 import Foundation
 public protocol DocumentsSearchable {
-  func getDocumentsDirectory() -> URL
+  public func getDocumentsDirectory() -> URL
 }
 
 extension DocumentsSearchable {
-  func getDocumentsDirectory() -> URL {
+  public func getDocumentsDirectory() -> URL {
     return try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
   }
 }
