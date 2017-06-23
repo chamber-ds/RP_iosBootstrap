@@ -9,9 +9,6 @@ Reachable - Find out if the user has a stable internet connection
 UIDevice - Get the user's device and version as a Type
 DocumentsSearchable - Quick helper to look up a file in the documents directory
 
-<p align="center">
-  <img src="" alt=""/>
-</p>
 
 
 ## To use this framework
