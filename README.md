@@ -1,7 +1,14 @@
  [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
-#SVNCarthageBootstrap
-A quick and dirty repo to bootstrap carthage framework development.
+#$SVNiOSBootstraper
+A bootstaping framework filled with protocols I use all the time.
+Included in this framework:
+Alertable - A quick way to show stock AlertViewControllers
+KeyboardNotifiable - Register for keyboard notifications
+Reachable - Find out if the user has a stable internet connection
+UIDevice - Get the user's device and version as a Type
+DocumentsSearchable - Quick helper to look up a file in the documents directory
+
 <p align="center">
   <img src="" alt=""/>
 </p>
