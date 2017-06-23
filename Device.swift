@@ -12,8 +12,6 @@ public enum iOSDevice {
   case isIphone4, isIphone5, isIphone6, isIphone6plus, isIphone, isIpad, isIpadPro
 }
 
-
-
 extension UIDevice {
   public class func whichDevice() -> iOSDevice? {
     let isDevice = { (comparision: Array<(Bool, iOSDevice)>) -> iOSDevice? in

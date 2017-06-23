@@ -1,6 +1,6 @@
  [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
-#$SVNiOSBootstraper
+# SVNiOSBootstraper
 A bootstaping framework filled with protocols I use all the time.
 Included in this framework:
 Alertable - A quick way to show stock AlertViewControllers
