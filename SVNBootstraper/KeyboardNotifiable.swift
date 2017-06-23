@@ -14,7 +14,7 @@ import UIKit
  - keyboardWillShowOrHide(notification:)
  - unregisterForKeyboardNotifications()
  */
-protocol KeyboardNotifiable {
+public protocol KeyboardNotifiable {
   
   /**
    Will register the reciever that conforms to *KeyboardNotifiable* to the following notifications:

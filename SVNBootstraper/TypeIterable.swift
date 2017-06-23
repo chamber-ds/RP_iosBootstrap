@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol TypeIterable {
+public protocol TypeIterable {
   func allProperties() throws -> [String: Any]
 }
 

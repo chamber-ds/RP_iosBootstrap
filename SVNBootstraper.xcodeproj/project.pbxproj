@@ -60,7 +60,7 @@
 		A155C5651EFD8C2C0069380F /* SVNBootstraper */ = {
 			isa = PBXGroup;
 			children = (
-				A155C57E1EFD92860069380F /* TypeIterable.swift */,
+				A155C5851EFDABF00069380F /* TypeMutation */,
 				A155C5771EFD90150069380F /* Notifications */,
 				A155C5761EFD900C0069380F /* Networking */,
 				A155C5781EFD901B0069380F /* Device */,
@@ -103,6 +103,14 @@
 				A155C5791EFD905B0069380F /* DocumentsSearchable.swift */,
 			);
 			name = FileManagement;
+			sourceTree = "<group>";
+		};
+		A155C5851EFDABF00069380F /* TypeMutation */ = {
+			isa = PBXGroup;
+			children = (
+				A155C57E1EFD92860069380F /* TypeIterable.swift */,
+			);
+			name = TypeMutation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,6 +370,7 @@
 				A155C56D1EFD8C2C0069380F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
