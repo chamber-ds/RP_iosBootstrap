@@ -15,7 +15,7 @@ public enum iOSDevice {
 
 
 extension UIDevice {
-  class func whichDevice() -> iOSDevice? {
+  public class func whichDevice() -> iOSDevice? {
     let isDevice = { (comparision: Array<(Bool, iOSDevice)>) -> iOSDevice? in
       var device: iOSDevice?
       comparision.forEach({
@@ -33,7 +33,7 @@ extension UIDevice {
       (UIDevice.current.userInterfaceIdiom == .pad && ScreenSize.SCREEN_MAX_LENGTH == 1366.0, iOSDevice.isIpadPro)])
   }
   
-  class func whichVersion() -> iOSVersion? {
+  public class func whichVersion() -> iOSVersion? {
     let systemOS = (UIDevice.current.systemVersion as NSString).floatValue
     let isVersion = { (comparisons: Array<(Bool, iOSVersion)>) ->iOSVersion? in
       var version: iOSVersion?
