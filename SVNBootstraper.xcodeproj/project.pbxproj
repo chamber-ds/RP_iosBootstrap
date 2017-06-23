@@ -15,6 +15,7 @@
 		A155C57A1EFD905B0069380F /* DocumentsSearchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C5791EFD905B0069380F /* DocumentsSearchable.swift */; };
 		A155C57D1EFD909B0069380F /* KeyboardNotifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C57C1EFD909B0069380F /* KeyboardNotifiable.swift */; };
 		A155C57F1EFD92860069380F /* TypeIterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C57E1EFD92860069380F /* TypeIterable.swift */; };
+		A155C5871EFDACB70069380F /* UIColor-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C5861EFDACB70069380F /* UIColor-Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A155C5791EFD905B0069380F /* DocumentsSearchable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentsSearchable.swift; sourceTree = "<group>"; };
 		A155C57C1EFD909B0069380F /* KeyboardNotifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardNotifiable.swift; sourceTree = "<group>"; };
 		A155C57E1EFD92860069380F /* TypeIterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeIterable.swift; sourceTree = "<group>"; };
+		A155C5861EFDACB70069380F /* UIColor-Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		A155C5651EFD8C2C0069380F /* SVNBootstraper */ = {
 			isa = PBXGroup;
 			children = (
+				A155C5881EFDACC60069380F /* UI-EXt */,
 				A155C5851EFDABF00069380F /* TypeMutation */,
 				A155C5771EFD90150069380F /* Notifications */,
 				A155C5761EFD900C0069380F /* Networking */,
@@ -111,6 +114,14 @@
 				A155C57E1EFD92860069380F /* TypeIterable.swift */,
 			);
 			name = TypeMutation;
+			sourceTree = "<group>";
+		};
+		A155C5881EFDACC60069380F /* UI-EXt */ = {
+			isa = PBXGroup;
+			children = (
+				A155C5861EFDACB70069380F /* UIColor-Ext.swift */,
+			);
+			name = "UI-EXt";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +212,7 @@
 				A155C57D1EFD909B0069380F /* KeyboardNotifiable.swift in Sources */,
 				A155C5751EFD8CAC0069380F /* Alertable.swift in Sources */,
 				A155C56F1EFD8C380069380F /* Device.swift in Sources */,
+				A155C5871EFDACB70069380F /* UIColor-Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

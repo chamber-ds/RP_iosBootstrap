@@ -22,9 +22,9 @@ public protocol KeyboardNotifiable {
    - UIKeyboardWillHide
    - UIKeyboardDidHide
  */
-  public func registerForKeyboardNotifications(with selector: Selector)
+  func registerForKeyboardNotifications(with selector: Selector)
   
-  public func keyboardWillShowOrHide(_ notification: NSNotification)
+  func keyboardWillShowOrHide(_ notification: NSNotification)
 }
 
 extension KeyboardNotifiable where Self: UIViewController {

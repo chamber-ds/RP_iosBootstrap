@@ -8,7 +8,7 @@
 
 import Foundation
 public protocol DocumentsSearchable {
-  public func getDocumentsDirectory() -> URL
+  func getDocumentsDirectory() -> URL
 }
 
 extension DocumentsSearchable {
