@@ -10,6 +10,7 @@
 		A1409E791F27E1A0001145D9 /* Coordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1409E781F27E1A0001145D9 /* Coordinatable.swift */; };
 		A1409E7D1F27E34C001145D9 /* Embeddable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1409E7B1F27E34C001145D9 /* Embeddable.swift */; };
 		A1409E7E1F27E34C001145D9 /* StoryboardLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1409E7C1F27E34C001145D9 /* StoryboardLoadable.swift */; };
+		A1409EF41F28007D001145D9 /* CoordinatableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1409EF31F28007D001145D9 /* CoordinatableVC.swift */; };
 		A155C5681EFD8C2C0069380F /* SVNBootstraper.h in Headers */ = {isa = PBXBuildFile; fileRef = A155C5661EFD8C2C0069380F /* SVNBootstraper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A155C56F1EFD8C380069380F /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C56E1EFD8C380069380F /* Device.swift */; };
 		A155C5711EFD8C620069380F /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C5701EFD8C620069380F /* Reachability.swift */; };
@@ -25,6 +26,7 @@
 		A1409E781F27E1A0001145D9 /* Coordinatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinatable.swift; sourceTree = "<group>"; };
 		A1409E7B1F27E34C001145D9 /* Embeddable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Embeddable.swift; sourceTree = "<group>"; };
 		A1409E7C1F27E34C001145D9 /* StoryboardLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardLoadable.swift; sourceTree = "<group>"; };
+		A1409EF31F28007D001145D9 /* CoordinatableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatableVC.swift; sourceTree = "<group>"; };
 		A155C5631EFD8C2C0069380F /* SVNBootstraper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVNBootstraper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A155C5661EFD8C2C0069380F /* SVNBootstraper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVNBootstraper.h; sourceTree = "<group>"; };
 		A155C5671EFD8C2C0069380F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 		A1409E7A1F27E1A6001145D9 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				A1409EF31F28007D001145D9 /* CoordinatableVC.swift */,
 				A1409E781F27E1A0001145D9 /* Coordinatable.swift */,
 			);
 			name = Coordinator;
@@ -230,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1409EF41F28007D001145D9 /* CoordinatableVC.swift in Sources */,
 				A155C57F1EFD92860069380F /* TypeIterable.swift in Sources */,
 				A155C5731EFD8C740069380F /* Reachable.swift in Sources */,
 				A1409E7E1F27E34C001145D9 /* StoryboardLoadable.swift in Sources */,

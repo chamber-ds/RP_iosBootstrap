@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIViewController {
+public extension UIViewController {
 	public func embed<T>(controller vc: T, into parentView: UIView?)
 		where T: UIViewController
 	{
@@ -23,6 +23,7 @@ extension UIViewController {
 		//	Note: after this, save the controller reference
 		//	somewhere in calling scope
 	}
+  
 
   public func unembed(controller: UIViewController?) {
 		guard let controller = controller else { return }
@@ -37,4 +38,3 @@ extension UIViewController {
 		//	in order to clear it out from memory
 	}
 }
-
