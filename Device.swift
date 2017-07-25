@@ -31,6 +31,7 @@ extension UIDevice {
       (UIDevice.current.userInterfaceIdiom == .pad && ScreenSize.SCREEN_MAX_LENGTH == 1366.0, iOSDevice.isIpadPro)])
   }
   
+  
   public class func whichVersion() -> iOSVersion? {
     let systemOS = (UIDevice.current.systemVersion as NSString).floatValue
     let isVersion = { (comparisons: Array<(Bool, iOSVersion)>) ->iOSVersion? in
@@ -45,6 +46,16 @@ extension UIDevice {
                       (systemOS >= 8.0 && systemOS < 9.0, iOSVersion.iOS8),
                       (systemOS >= 9.0 && systemOS < 10.0, iOSVersion.iOS9),
                       (systemOS >= 10.0 && systemOS < 11.0, iOSVersion.iOS10)])
+  }
+  
+  
+  /// returns true if isIphone4 or 5
+  public class func isSmallIphone() -> Bool {
+    let device = whichDevice()
+    if device == .isIphone4 || device == .isIphone5 {
+      return true
+    }
+    return false
   }
 }
 
