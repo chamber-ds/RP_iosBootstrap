@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1409E791F27E1A0001145D9 /* Coordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1409E781F27E1A0001145D9 /* Coordinatable.swift */; };
 		A155C5681EFD8C2C0069380F /* SVNBootstraper.h in Headers */ = {isa = PBXBuildFile; fileRef = A155C5661EFD8C2C0069380F /* SVNBootstraper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A155C56F1EFD8C380069380F /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C56E1EFD8C380069380F /* Device.swift */; };
 		A155C5711EFD8C620069380F /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C5701EFD8C620069380F /* Reachability.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A1409E781F27E1A0001145D9 /* Coordinatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinatable.swift; sourceTree = "<group>"; };
 		A155C5631EFD8C2C0069380F /* SVNBootstraper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVNBootstraper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A155C5661EFD8C2C0069380F /* SVNBootstraper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVNBootstraper.h; sourceTree = "<group>"; };
 		A155C5671EFD8C2C0069380F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A1409E7A1F27E1A6001145D9 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A1409E781F27E1A0001145D9 /* Coordinatable.swift */,
+			);
+			name = Coordinator;
+			sourceTree = "<group>";
+		};
 		A155C5591EFD8C2C0069380F = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 		A155C5651EFD8C2C0069380F /* SVNBootstraper */ = {
 			isa = PBXGroup;
 			children = (
+				A1409E7A1F27E1A6001145D9 /* Coordinator */,
 				A155C5881EFDACC60069380F /* UI-EXt */,
 				A155C5851EFDABF00069380F /* TypeMutation */,
 				A155C5771EFD90150069380F /* Notifications */,
@@ -210,6 +221,7 @@
 				A155C5711EFD8C620069380F /* Reachability.swift in Sources */,
 				A155C57A1EFD905B0069380F /* DocumentsSearchable.swift in Sources */,
 				A155C57D1EFD909B0069380F /* KeyboardNotifiable.swift in Sources */,
+				A1409E791F27E1A0001145D9 /* Coordinatable.swift in Sources */,
 				A155C5751EFD8CAC0069380F /* Alertable.swift in Sources */,
 				A155C56F1EFD8C380069380F /* Device.swift in Sources */,
 				A155C5871EFDACB70069380F /* UIColor-Ext.swift in Sources */,
