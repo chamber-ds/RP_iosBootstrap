@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1409E791F27E1A0001145D9 /* Coordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1409E781F27E1A0001145D9 /* Coordinatable.swift */; };
-		A1409E7D1F27E34C001145D9 /* Embeddable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1409E7B1F27E34C001145D9 /* Embeddable.swift */; };
-		A1409E7E1F27E34C001145D9 /* StoryboardLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1409E7C1F27E34C001145D9 /* StoryboardLoadable.swift */; };
+		A12267ED1F2FCA7B002FD589 /* SwiftEssentials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12267EC1F2FCA7B002FD589 /* SwiftEssentials.framework */; };
 		A1409EF41F28007D001145D9 /* CoordinatableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1409EF31F28007D001145D9 /* CoordinatableVC.swift */; };
 		A1437A561F2805890079C593 /* CaseCountable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1437A551F2805890079C593 /* CaseCountable.swift */; };
 		A155C5681EFD8C2C0069380F /* SVNBootstraper.h in Headers */ = {isa = PBXBuildFile; fileRef = A155C5661EFD8C2C0069380F /* SVNBootstraper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,9 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A1409E781F27E1A0001145D9 /* Coordinatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinatable.swift; sourceTree = "<group>"; };
-		A1409E7B1F27E34C001145D9 /* Embeddable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Embeddable.swift; sourceTree = "<group>"; };
-		A1409E7C1F27E34C001145D9 /* StoryboardLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardLoadable.swift; sourceTree = "<group>"; };
+		A12267EC1F2FCA7B002FD589 /* SwiftEssentials.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftEssentials.framework; path = Carthage/Build/iOS/SwiftEssentials.framework; sourceTree = "<group>"; };
 		A1409EF31F28007D001145D9 /* CoordinatableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatableVC.swift; sourceTree = "<group>"; };
 		A1437A551F2805890079C593 /* CaseCountable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseCountable.swift; sourceTree = "<group>"; };
 		A155C5631EFD8C2C0069380F /* SVNBootstraper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVNBootstraper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,28 +43,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A12267ED1F2FCA7B002FD589 /* SwiftEssentials.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A12267EB1F2FCA7B002FD589 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A12267EC1F2FCA7B002FD589 /* SwiftEssentials.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A1409E7A1F27E1A6001145D9 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
 				A1409EF31F28007D001145D9 /* CoordinatableVC.swift */,
-				A1409E781F27E1A0001145D9 /* Coordinatable.swift */,
 			);
 			name = Coordinator;
-			sourceTree = "<group>";
-		};
-		A1409E7F1F27E350001145D9 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				A1409E7B1F27E34C001145D9 /* Embeddable.swift */,
-				A1409E7C1F27E34C001145D9 /* StoryboardLoadable.swift */,
-			);
-			name = Controllers;
 			sourceTree = "<group>";
 		};
 		A155C5591EFD8C2C0069380F = {
@@ -76,6 +71,7 @@
 			children = (
 				A155C5651EFD8C2C0069380F /* SVNBootstraper */,
 				A155C5641EFD8C2C0069380F /* Products */,
+				A12267EB1F2FCA7B002FD589 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,7 +86,6 @@
 		A155C5651EFD8C2C0069380F /* SVNBootstraper */ = {
 			isa = PBXGroup;
 			children = (
-				A1409E7F1F27E350001145D9 /* Controllers */,
 				A1409E7A1F27E1A6001145D9 /* Coordinator */,
 				A155C5881EFDACC60069380F /* UI-EXt */,
 				A155C5851EFDABF00069380F /* TypeMutation */,
@@ -240,14 +235,11 @@
 				A155C57F1EFD92860069380F /* TypeIterable.swift in Sources */,
 				A1437A561F2805890079C593 /* CaseCountable.swift in Sources */,
 				A155C5731EFD8C740069380F /* Reachable.swift in Sources */,
-				A1409E7E1F27E34C001145D9 /* StoryboardLoadable.swift in Sources */,
 				A155C5711EFD8C620069380F /* Reachability.swift in Sources */,
 				A155C57A1EFD905B0069380F /* DocumentsSearchable.swift in Sources */,
 				A155C57D1EFD909B0069380F /* KeyboardNotifiable.swift in Sources */,
-				A1409E791F27E1A0001145D9 /* Coordinatable.swift in Sources */,
 				A155C5751EFD8CAC0069380F /* Alertable.swift in Sources */,
 				A155C56F1EFD8C380069380F /* Device.swift in Sources */,
-				A1409E7D1F27E34C001145D9 /* Embeddable.swift in Sources */,
 				A155C5871EFDACB70069380F /* UIColor-Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,6 +358,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SVNBootstraper/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -388,6 +384,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SVNBootstraper/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
