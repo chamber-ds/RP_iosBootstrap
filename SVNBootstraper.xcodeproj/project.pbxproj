@@ -19,6 +19,7 @@
 		A155C57D1EFD909B0069380F /* KeyboardNotifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C57C1EFD909B0069380F /* KeyboardNotifiable.swift */; };
 		A155C57F1EFD92860069380F /* TypeIterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C57E1EFD92860069380F /* TypeIterable.swift */; };
 		A155C5871EFDACB70069380F /* UIColor-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C5861EFDACB70069380F /* UIColor-Ext.swift */; };
+		A17AA6DC1F5F589900045C10 /* FirePrintCreatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17AA6DB1F5F589900045C10 /* FirePrintCreatable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		A155C57C1EFD909B0069380F /* KeyboardNotifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardNotifiable.swift; sourceTree = "<group>"; };
 		A155C57E1EFD92860069380F /* TypeIterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeIterable.swift; sourceTree = "<group>"; };
 		A155C5861EFDACB70069380F /* UIColor-Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Ext.swift"; sourceTree = "<group>"; };
+		A17AA6DB1F5F589900045C10 /* FirePrintCreatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirePrintCreatable.swift; sourceTree = "<group>"; };
+		A17AA6DD1F5F5AD600045C10 /* FinePrintUnitTEst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinePrintUnitTEst.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,7 @@
 		A155C5591EFD8C2C0069380F = {
 			isa = PBXGroup;
 			children = (
+				A17AA6DF1F5F5AE000045C10 /* UnitTests */,
 				A155C5651EFD8C2C0069380F /* SVNBootstraper */,
 				A155C5641EFD8C2C0069380F /* Products */,
 				A12267EB1F2FCA7B002FD589 /* Frameworks */,
@@ -146,8 +150,17 @@
 			isa = PBXGroup;
 			children = (
 				A155C5861EFDACB70069380F /* UIColor-Ext.swift */,
+				A17AA6DB1F5F589900045C10 /* FirePrintCreatable.swift */,
 			);
 			name = "UI-EXt";
+			sourceTree = "<group>";
+		};
+		A17AA6DF1F5F5AE000045C10 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				A17AA6DD1F5F5AD600045C10 /* FinePrintUnitTEst.swift */,
+			);
+			name = UnitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +201,7 @@
 		A155C55A1EFD8C2C0069380F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = 7apps;
 				TargetAttributes = {
@@ -231,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A17AA6DC1F5F589900045C10 /* FirePrintCreatable.swift in Sources */,
 				A1409EF41F28007D001145D9 /* CoordinatableVC.swift in Sources */,
 				A155C57F1EFD92860069380F /* TypeIterable.swift in Sources */,
 				A1437A561F2805890079C593 /* CaseCountable.swift in Sources */,
