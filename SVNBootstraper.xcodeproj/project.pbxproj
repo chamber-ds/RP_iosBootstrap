@@ -38,7 +38,6 @@
 		A155C57E1EFD92860069380F /* TypeIterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeIterable.swift; sourceTree = "<group>"; };
 		A155C5861EFDACB70069380F /* UIColor-Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Ext.swift"; sourceTree = "<group>"; };
 		A17AA6DB1F5F589900045C10 /* FirePrintCreatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirePrintCreatable.swift; sourceTree = "<group>"; };
-		A17AA6DD1F5F5AD600045C10 /* FinePrintUnitTEst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinePrintUnitTEst.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +71,6 @@
 		A155C5591EFD8C2C0069380F = {
 			isa = PBXGroup;
 			children = (
-				A17AA6DF1F5F5AE000045C10 /* UnitTests */,
 				A155C5651EFD8C2C0069380F /* SVNBootstraper */,
 				A155C5641EFD8C2C0069380F /* Products */,
 				A12267EB1F2FCA7B002FD589 /* Frameworks */,
@@ -153,14 +151,6 @@
 				A17AA6DB1F5F589900045C10 /* FirePrintCreatable.swift */,
 			);
 			name = "UI-EXt";
-			sourceTree = "<group>";
-		};
-		A17AA6DF1F5F5AE000045C10 /* UnitTests */ = {
-			isa = PBXGroup;
-			children = (
-				A17AA6DD1F5F5AD600045C10 /* FinePrintUnitTEst.swift */,
-			);
-			name = UnitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

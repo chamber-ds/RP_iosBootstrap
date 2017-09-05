@@ -15,7 +15,7 @@ public protocol FinePrintAttibutedString {
 
 
 public protocol FinePrintCreatable {
-func createFinePrintAttributedString(withParagraph paragraph: [FinePrintAttibutedString], linkFont: UIFont, textColor: UIColor, linkColor: UIColor, alignment: NSTextAlignment) -> NSMutableAttributedString
+  public func createFinePrintAttributedString(withParagraph paragraph: [FinePrintAttibutedString], linkFont: UIFont, textColor: UIColor, linkColor: UIColor, alignment: NSTextAlignment) -> NSMutableAttributedString
 }
 
 extension FinePrintCreatable {
