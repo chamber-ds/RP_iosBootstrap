@@ -15,11 +15,11 @@ public protocol FinePrintAttibutedString {
 
 
 public protocol FinePrintCreatable {
-  public func createFinePrintAttributedString(withParagraph paragraph: [FinePrintAttibutedString], linkFont: UIFont, textColor: UIColor, linkColor: UIColor, alignment: NSTextAlignment) -> NSMutableAttributedString
+  func createFinePrintAttributedString(withParagraph paragraph: [FinePrintAttibutedString], linkFont: UIFont, textColor: UIColor, linkColor: UIColor, alignment: NSTextAlignment) -> NSMutableAttributedString
 }
 
-extension FinePrintCreatable {
-  func createFinePrintAttributedString(withParagraph paragraph: [FinePrintAttibutedString], linkFont: UIFont, textColor: UIColor, linkColor: UIColor, alignment: NSTextAlignment) -> NSMutableAttributedString{
+public extension FinePrintCreatable {
+   func createFinePrintAttributedString(withParagraph paragraph: [FinePrintAttibutedString], linkFont: UIFont, textColor: UIColor, linkColor: UIColor, alignment: NSTextAlignment) -> NSMutableAttributedString{
     let paragraphStyle = NSMutableParagraphStyle()
     paragraphStyle.alignment = alignment
     paragraphStyle.lineBreakMode = .byWordWrapping
