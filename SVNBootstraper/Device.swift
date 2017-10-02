@@ -9,11 +9,11 @@
 import UIKit
 
 public enum iOSDevice {
-  case isIphone4, isIphone5, isIphone6, isIphone6plus, isIphone, isIphoneX, isIpad, isIpadPro
+  case isIphone4, isIphone5, isIphone6_7_8, isIphone6_7_8plus, isIphone, isIphoneX, isIpad, isIpadPro
 }
 
 extension UIDevice {
-  public class func whichDevice() -> iOSDevice? {
+  public class func deviceByScreenSize() -> iOSDevice? {
     let isDevice = { (comparision: Array<(Bool, iOSDevice)>) -> iOSDevice? in
       var device: iOSDevice?
       comparision.forEach({
@@ -25,8 +25,8 @@ extension UIDevice {
     return isDevice([
       (UIDevice.current.userInterfaceIdiom == .phone && ScreenSize.SCREEN_MAX_LENGTH < 568.0, iOSDevice.isIphone4),
       (UIDevice.current.userInterfaceIdiom == .phone && ScreenSize.SCREEN_MAX_LENGTH == 568.0, iOSDevice.isIphone5),
-      (UIDevice.current.userInterfaceIdiom == .phone && ScreenSize.SCREEN_MAX_LENGTH == 667.0, iOSDevice.isIphone6),
-      (UIDevice.current.userInterfaceIdiom == .phone && ScreenSize.SCREEN_MAX_LENGTH == 736.0, iOSDevice.isIphone6plus),
+      (UIDevice.current.userInterfaceIdiom == .phone && ScreenSize.SCREEN_MAX_LENGTH == 667.0, iOSDevice.isIphone6_7_8),
+      (UIDevice.current.userInterfaceIdiom == .phone && ScreenSize.SCREEN_MAX_LENGTH == 736.0, iOSDevice.isIphone6_7_8plus),
       (UIDevice.current.userInterfaceIdiom == .phone && ScreenSize.SCREEN_MAX_LENGTH == 812.0, iOSDevice.isIphoneX),
       (UIDevice.current.userInterfaceIdiom == .pad && ScreenSize.SCREEN_MAX_LENGTH == 1024.0, iOSDevice.isIpad),
       (UIDevice.current.userInterfaceIdiom == .pad && ScreenSize.SCREEN_MAX_LENGTH == 1366.0, iOSDevice.isIpadPro)])
@@ -53,7 +53,7 @@ extension UIDevice {
   
   /// returns true if isIphone4 or 5
   public class func isSmallIphone() -> Bool {
-    let device = whichDevice()
+    let device = deviceByScreenSize()
     if device == .isIphone4 || device == .isIphone5 {
       return true
     }
