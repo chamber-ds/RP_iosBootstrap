@@ -11,21 +11,18 @@ A bootstaping framework filled with protocols I use all the time.
 ### KeyboardNotifiable
  Register for keyboard notifications
 
-### Reachable
-  Find out if the user has a stable internet connection
-
-### UIDevice
-  No longer supported. Using Device Kit instead:
-  github "dennisweissmann/DeviceKit" ~> 1.0
-
 ### DocumentsSearchable
  Quick helper to look up a file in the documents directory
  
 ### UIColor ext
  Enable support for instanciation with RGB values 
- 
-### UIDevice ext
- Adds class methods whichDevice() and whichVersion() to find the current Device's information.
+
+### Reachable
+No longer supported. Use alamofire instead  
+
+### UIDevice
+No longer supported. Using Device Kit instead:
+github "dennisweissmann/DeviceKit" ~> 1.0
 
 
 ## To use this framework
