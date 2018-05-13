@@ -40,18 +40,6 @@ github "dennisweissmann/DeviceKit" ~> 1.0
   Helpers to load various Views
 
 
-
-## To use this framework
-Copy and paste the contents (sans .git folder) into a project folder.
-To initialize your project for Carthage use and make sure you have Carthage installed:
-
-    bin/setup
-
-Once you've updated the **Cartfile**, to pull down your dependencies call:
-
-    bin/update
-
-
 ## To install this framework
 
 Add Carthage files to your .gitignore
@@ -73,13 +61,13 @@ Open the Cartfile and add this as a dependency. (in OGDL):
 
 Update your project to include the framework:
 
-    Carthage update --platform iOS
+    Carthage update --platform iOS --cache-builds
 
-Add the framework to 'Embedded Binaries' in the Xcode Project by dragging and dropping the framework created in
+Add the framework to 'Linked Frameworks and Libraries' in the Xcode Project by dragging and dropping the framework created in
 
     Carthage/Build/iOS/pathToFramework*.framework
 
-Add this run Script to your xcodeproj
+Create a new run script and add this:
 
     /usr/local/bin/carthage copy-frameworks
 
