@@ -1,9 +1,10 @@
  [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
-# SVNiOSBootstraper
-A bootstaping framework filled with protocols I use all the time.
+# RP_iOSBootstrap
+A framework filled with protocols I use all the time.
 
 # Included in this framework:
+## From [Cyrkus](https://github.com/cyrkus) & Rose&Pine
 
 ### Alertable
  A quick way to show stock AlertViewControllers
@@ -23,6 +24,21 @@ No longer supported. Use alamofire instead
 ### UIDevice
 No longer supported. Using Device Kit instead:
 github "dennisweissmann/DeviceKit" ~> 1.0
+
+## From [RadiantTap](https://github.com/radianttap)
+
+### Bundle - Ext
+  Get application meta-data
+  
+### Embeddable
+  easily embed a viewController into a parentView
+  
+### AsyncOperation
+  get state for async operations
+    
+### DequeableView // NibLoadable // ReusableView 
+  Helpers to load various Views
+
 
 
 ## To use this framework
@@ -53,7 +69,7 @@ Create a CartFile to manage your dependencies:
 
 Open the Cartfile and add this as a dependency. (in OGDL):
 
-    github "sevenapps/SVNiOSBootstraper" "master"
+    github "bikisDesign/RP_iosBootstrap" "master"
 
 Update your project to include the framework:
 
