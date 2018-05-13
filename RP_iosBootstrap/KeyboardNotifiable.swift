@@ -1,9 +1,9 @@
 //
 //  KeyboardNotifiable.swift
-//  SVNSalesIncentives
+//  RP_iosBootstrap
 //
-//  Created by Aaron Dean Bikis on 4/27/17.
-//  Copyright © 2017 7apps. All rights reserved.
+//  Created by Aaron bikis on 6/30/16.
+//  Copyright © 2016 Aaron bikis. All rights reserved.
 //
 
 import UIKit

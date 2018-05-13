@@ -7,29 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1437A561F2805890079C593 /* CaseCountable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1437A551F2805890079C593 /* CaseCountable.swift */; };
 		A155C5681EFD8C2C0069380F /* SVNBootstraper.h in Headers */ = {isa = PBXBuildFile; fileRef = A155C5661EFD8C2C0069380F /* SVNBootstraper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A155C5711EFD8C620069380F /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C5701EFD8C620069380F /* Reachability.swift */; };
-		A155C5731EFD8C740069380F /* Reachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C5721EFD8C740069380F /* Reachable.swift */; };
 		A155C5751EFD8CAC0069380F /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C5741EFD8CAC0069380F /* Alertable.swift */; };
 		A155C57A1EFD905B0069380F /* DocumentsSearchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C5791EFD905B0069380F /* DocumentsSearchable.swift */; };
 		A155C57D1EFD909B0069380F /* KeyboardNotifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C57C1EFD909B0069380F /* KeyboardNotifiable.swift */; };
 		A155C5871EFDACB70069380F /* UIColor-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C5861EFDACB70069380F /* UIColor-Ext.swift */; };
-		A17AA6DC1F5F589900045C10 /* FirePrintCreatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17AA6DB1F5F589900045C10 /* FirePrintCreatable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A1437A551F2805890079C593 /* CaseCountable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseCountable.swift; sourceTree = "<group>"; };
-		A155C5631EFD8C2C0069380F /* SVNBootstraper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVNBootstraper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A155C5631EFD8C2C0069380F /* RP_iosBootstrap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RP_iosBootstrap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A155C5661EFD8C2C0069380F /* SVNBootstraper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVNBootstraper.h; sourceTree = "<group>"; };
 		A155C5671EFD8C2C0069380F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A155C5701EFD8C620069380F /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
-		A155C5721EFD8C740069380F /* Reachable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachable.swift; sourceTree = "<group>"; };
 		A155C5741EFD8CAC0069380F /* Alertable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
 		A155C5791EFD905B0069380F /* DocumentsSearchable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentsSearchable.swift; sourceTree = "<group>"; };
 		A155C57C1EFD909B0069380F /* KeyboardNotifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardNotifiable.swift; sourceTree = "<group>"; };
 		A155C5861EFDACB70069380F /* UIColor-Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Ext.swift"; sourceTree = "<group>"; };
-		A17AA6DB1F5F589900045C10 /* FirePrintCreatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirePrintCreatable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +45,7 @@
 		A155C5591EFD8C2C0069380F = {
 			isa = PBXGroup;
 			children = (
-				A155C5651EFD8C2C0069380F /* SVNBootstraper */,
+				A155C5651EFD8C2C0069380F /* RP_iosBootstrap */,
 				A155C5641EFD8C2C0069380F /* Products */,
 				A12267EB1F2FCA7B002FD589 /* Frameworks */,
 			);
@@ -62,32 +54,21 @@
 		A155C5641EFD8C2C0069380F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A155C5631EFD8C2C0069380F /* SVNBootstraper.framework */,
+				A155C5631EFD8C2C0069380F /* RP_iosBootstrap.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A155C5651EFD8C2C0069380F /* SVNBootstraper */ = {
+		A155C5651EFD8C2C0069380F /* RP_iosBootstrap */ = {
 			isa = PBXGroup;
 			children = (
 				A155C5881EFDACC60069380F /* UI-EXt */,
-				A155C5851EFDABF00069380F /* TypeMutation */,
 				A155C5771EFD90150069380F /* Notifications */,
-				A155C5761EFD900C0069380F /* Networking */,
 				A155C57B1EFD90630069380F /* FileManagement */,
 				A155C5661EFD8C2C0069380F /* SVNBootstraper.h */,
 				A155C5671EFD8C2C0069380F /* Info.plist */,
 			);
-			path = SVNBootstraper;
-			sourceTree = "<group>";
-		};
-		A155C5761EFD900C0069380F /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				A155C5721EFD8C740069380F /* Reachable.swift */,
-				A155C5701EFD8C620069380F /* Reachability.swift */,
-			);
-			name = Networking;
+			path = RP_iosBootstrap;
 			sourceTree = "<group>";
 		};
 		A155C5771EFD90150069380F /* Notifications */ = {
@@ -107,19 +88,10 @@
 			name = FileManagement;
 			sourceTree = "<group>";
 		};
-		A155C5851EFDABF00069380F /* TypeMutation */ = {
-			isa = PBXGroup;
-			children = (
-				A1437A551F2805890079C593 /* CaseCountable.swift */,
-			);
-			name = TypeMutation;
-			sourceTree = "<group>";
-		};
 		A155C5881EFDACC60069380F /* UI-EXt */ = {
 			isa = PBXGroup;
 			children = (
 				A155C5861EFDACB70069380F /* UIColor-Ext.swift */,
-				A17AA6DB1F5F589900045C10 /* FirePrintCreatable.swift */,
 			);
 			name = "UI-EXt";
 			sourceTree = "<group>";
@@ -138,9 +110,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A155C5621EFD8C2C0069380F /* SVNBootstraper */ = {
+		A155C5621EFD8C2C0069380F /* RP_iosBootstrap */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A155C56B1EFD8C2C0069380F /* Build configuration list for PBXNativeTarget "SVNBootstraper" */;
+			buildConfigurationList = A155C56B1EFD8C2C0069380F /* Build configuration list for PBXNativeTarget "RP_iosBootstrap" */;
 			buildPhases = (
 				A155C55E1EFD8C2C0069380F /* Sources */,
 				A155C55F1EFD8C2C0069380F /* Frameworks */,
@@ -151,9 +123,9 @@
 			);
 			dependencies = (
 			);
-			name = SVNBootstraper;
+			name = RP_iosBootstrap;
 			productName = SVNBootstraper;
-			productReference = A155C5631EFD8C2C0069380F /* SVNBootstraper.framework */;
+			productReference = A155C5631EFD8C2C0069380F /* RP_iosBootstrap.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -174,7 +146,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A155C55D1EFD8C2C0069380F /* Build configuration list for PBXProject "SVNBootstraper" */;
+			buildConfigurationList = A155C55D1EFD8C2C0069380F /* Build configuration list for PBXProject "RP_iosBootstrap" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -186,7 +158,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A155C5621EFD8C2C0069380F /* SVNBootstraper */,
+				A155C5621EFD8C2C0069380F /* RP_iosBootstrap */,
 			);
 		};
 /* End PBXProject section */
@@ -206,10 +178,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A17AA6DC1F5F589900045C10 /* FirePrintCreatable.swift in Sources */,
-				A1437A561F2805890079C593 /* CaseCountable.swift in Sources */,
-				A155C5731EFD8C740069380F /* Reachable.swift in Sources */,
-				A155C5711EFD8C620069380F /* Reachability.swift in Sources */,
 				A155C57A1EFD905B0069380F /* DocumentsSearchable.swift in Sources */,
 				A155C57D1EFD909B0069380F /* KeyboardNotifiable.swift in Sources */,
 				A155C5751EFD8CAC0069380F /* Alertable.swift in Sources */,
@@ -351,7 +319,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.7apps.SVNBootstraper;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RoseAndPine.RP-iosBootstrap";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -378,7 +346,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.7apps.SVNBootstraper;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RoseAndPine.RP-iosBootstrap";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -389,7 +357,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A155C55D1EFD8C2C0069380F /* Build configuration list for PBXProject "SVNBootstraper" */ = {
+		A155C55D1EFD8C2C0069380F /* Build configuration list for PBXProject "RP_iosBootstrap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A155C5691EFD8C2C0069380F /* Debug */,
@@ -398,7 +366,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A155C56B1EFD8C2C0069380F /* Build configuration list for PBXNativeTarget "SVNBootstraper" */ = {
+		A155C56B1EFD8C2C0069380F /* Build configuration list for PBXNativeTarget "RP_iosBootstrap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A155C56C1EFD8C2C0069380F /* Debug */,
