@@ -17,7 +17,6 @@
 		89EFBB392194F5380035DEC1 /* UILabel-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFBB362194F5370035DEC1 /* UILabel-Ext.swift */; };
 		89EFBB3A2194F5380035DEC1 /* UImage-ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFBB372194F5380035DEC1 /* UImage-ext.swift */; };
 		89EFBB412194F5B40035DEC1 /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFBB3B2194F5B30035DEC1 /* NavigationCoordinator.swift */; };
-		89EFBB422194F5B40035DEC1 /* NeedsDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFBB3C2194F5B30035DEC1 /* NeedsDependency.swift */; };
 		89EFBB432194F5B40035DEC1 /* Coordinating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFBB3D2194F5B40035DEC1 /* Coordinating.swift */; };
 		89EFBB442194F5B40035DEC1 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFBB3E2194F5B40035DEC1 /* Coordinator.swift */; };
 		89EFBB452194F5B40035DEC1 /* UIKit-CoordinatingExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFBB3F2194F5B40035DEC1 /* UIKit-CoordinatingExtensions.swift */; };
@@ -40,7 +39,6 @@
 		89EFBB362194F5370035DEC1 /* UILabel-Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel-Ext.swift"; sourceTree = "<group>"; };
 		89EFBB372194F5380035DEC1 /* UImage-ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UImage-ext.swift"; sourceTree = "<group>"; };
 		89EFBB3B2194F5B30035DEC1 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationCoordinator.swift; sourceTree = "<group>"; };
-		89EFBB3C2194F5B30035DEC1 /* NeedsDependency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeedsDependency.swift; sourceTree = "<group>"; };
 		89EFBB3D2194F5B40035DEC1 /* Coordinating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinating.swift; sourceTree = "<group>"; };
 		89EFBB3E2194F5B40035DEC1 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		89EFBB3F2194F5B40035DEC1 /* UIKit-CoordinatingExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit-CoordinatingExtensions.swift"; sourceTree = "<group>"; };
@@ -106,7 +104,6 @@
 				89EFBB3E2194F5B40035DEC1 /* Coordinator.swift */,
 				89EFBB402194F5B40035DEC1 /* CoordintableVC.swift */,
 				89EFBB3B2194F5B30035DEC1 /* NavigationCoordinator.swift */,
-				89EFBB3C2194F5B30035DEC1 /* NeedsDependency.swift */,
 				89EFBB3F2194F5B40035DEC1 /* UIKit-CoordinatingExtensions.swift */,
 			);
 			name = Coordinator;
@@ -266,7 +263,6 @@
 				89EFBB392194F5380035DEC1 /* UILabel-Ext.swift in Sources */,
 				89EFBB452194F5B40035DEC1 /* UIKit-CoordinatingExtensions.swift in Sources */,
 				A155C57A1EFD905B0069380F /* DocumentsSearchable.swift in Sources */,
-				89EFBB422194F5B40035DEC1 /* NeedsDependency.swift in Sources */,
 				89EFBB382194F5380035DEC1 /* UIResponder-Ext.swift in Sources */,
 				89C5B7C920A8C85600528950 /* ReusableView.swift in Sources */,
 				89C5B7C320A8C83A00528950 /* Bundle-Extensions.swift in Sources */,
