@@ -13,6 +13,9 @@
 		89C5B7C820A8C85600528950 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5B7C520A8C85600528950 /* NibLoadable.swift */; };
 		89C5B7C920A8C85600528950 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5B7C620A8C85600528950 /* ReusableView.swift */; };
 		89C5B7CA20A8C85600528950 /* DequeableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5B7C720A8C85600528950 /* DequeableView.swift */; };
+		89EFBB382194F5380035DEC1 /* UIResponder-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFBB352194F5370035DEC1 /* UIResponder-Ext.swift */; };
+		89EFBB392194F5380035DEC1 /* UILabel-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFBB362194F5370035DEC1 /* UILabel-Ext.swift */; };
+		89EFBB3A2194F5380035DEC1 /* UImage-ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFBB372194F5380035DEC1 /* UImage-ext.swift */; };
 		A155C5681EFD8C2C0069380F /* SVNBootstraper.h in Headers */ = {isa = PBXBuildFile; fileRef = A155C5661EFD8C2C0069380F /* SVNBootstraper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A155C5751EFD8CAC0069380F /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C5741EFD8CAC0069380F /* Alertable.swift */; };
 		A155C57A1EFD905B0069380F /* DocumentsSearchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C5791EFD905B0069380F /* DocumentsSearchable.swift */; };
@@ -27,6 +30,9 @@
 		89C5B7C520A8C85600528950 /* NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
 		89C5B7C620A8C85600528950 /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		89C5B7C720A8C85600528950 /* DequeableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DequeableView.swift; sourceTree = "<group>"; };
+		89EFBB352194F5370035DEC1 /* UIResponder-Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIResponder-Ext.swift"; sourceTree = "<group>"; };
+		89EFBB362194F5370035DEC1 /* UILabel-Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel-Ext.swift"; sourceTree = "<group>"; };
+		89EFBB372194F5380035DEC1 /* UImage-ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UImage-ext.swift"; sourceTree = "<group>"; };
 		A155C5631EFD8C2C0069380F /* RP_iosBootstrap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RP_iosBootstrap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A155C5661EFD8C2C0069380F /* SVNBootstraper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVNBootstraper.h; sourceTree = "<group>"; };
 		A155C5671EFD8C2C0069380F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -141,6 +147,9 @@
 		A155C5881EFDACC60069380F /* UI-EXt */ = {
 			isa = PBXGroup;
 			children = (
+				89EFBB362194F5370035DEC1 /* UILabel-Ext.swift */,
+				89EFBB372194F5380035DEC1 /* UImage-ext.swift */,
+				89EFBB352194F5370035DEC1 /* UIResponder-Ext.swift */,
 				A155C5861EFDACB70069380F /* UIColor-Ext.swift */,
 			);
 			name = "UI-EXt";
@@ -228,7 +237,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89EFBB392194F5380035DEC1 /* UILabel-Ext.swift in Sources */,
 				A155C57A1EFD905B0069380F /* DocumentsSearchable.swift in Sources */,
+				89EFBB382194F5380035DEC1 /* UIResponder-Ext.swift in Sources */,
 				89C5B7C920A8C85600528950 /* ReusableView.swift in Sources */,
 				89C5B7C320A8C83A00528950 /* Bundle-Extensions.swift in Sources */,
 				A155C57D1EFD909B0069380F /* KeyboardNotifiable.swift in Sources */,
@@ -237,6 +248,7 @@
 				A155C5751EFD8CAC0069380F /* Alertable.swift in Sources */,
 				89C5B7BB20A8C7FE00528950 /* AsyncOperation.swift in Sources */,
 				89C5B7CA20A8C85600528950 /* DequeableView.swift in Sources */,
+				89EFBB3A2194F5380035DEC1 /* UImage-ext.swift in Sources */,
 				A155C5871EFDACB70069380F /* UIColor-Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
