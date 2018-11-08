@@ -9,7 +9,7 @@
 import UIKit
 
 extension UIImage {
-  func tint(with color: UIColor) -> UIImage {
+  public func tint(with color: UIColor) -> UIImage {
     var image = withRenderingMode(.alwaysTemplate)
     UIGraphicsBeginImageContextWithOptions(size, false, scale)
     color.set()

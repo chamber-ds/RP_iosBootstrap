@@ -9,7 +9,7 @@
 import UIKit
 
 extension UILabel {
-  func addColoringHighlighting(text: String, textToColor: String, font: UIFont, defaultColor: UIColor, highlightColor: UIColor){
+  public func addColoringHighlighting(text: String, textToColor: String, font: UIFont, defaultColor: UIColor, highlightColor: UIColor){
     let darkText = [NSAttributedString.Key.foregroundColor: defaultColor, NSAttributedString.Key.font: font]
     
     let range = text.range(of: textToColor)!

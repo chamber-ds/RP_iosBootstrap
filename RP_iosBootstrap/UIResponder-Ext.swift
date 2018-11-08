@@ -10,7 +10,7 @@ import UIKit
 
 
 extension UIResponder {
-  @objc dynamic func tabTapped(_ tabID: String, onQueue queue: OperationQueue, sender: Any?) {
+  @objc public dynamic func tabTapped(_ tabID: String, onQueue queue: OperationQueue, sender: Any?) {
     coordinatingResponder?.tabTapped(tabID, onQueue: queue, sender: sender)
   }
 }
