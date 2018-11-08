@@ -16,6 +16,12 @@
 		89EFBB382194F5380035DEC1 /* UIResponder-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFBB352194F5370035DEC1 /* UIResponder-Ext.swift */; };
 		89EFBB392194F5380035DEC1 /* UILabel-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFBB362194F5370035DEC1 /* UILabel-Ext.swift */; };
 		89EFBB3A2194F5380035DEC1 /* UImage-ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFBB372194F5380035DEC1 /* UImage-ext.swift */; };
+		89EFBB412194F5B40035DEC1 /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFBB3B2194F5B30035DEC1 /* NavigationCoordinator.swift */; };
+		89EFBB422194F5B40035DEC1 /* NeedsDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFBB3C2194F5B30035DEC1 /* NeedsDependency.swift */; };
+		89EFBB432194F5B40035DEC1 /* Coordinating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFBB3D2194F5B40035DEC1 /* Coordinating.swift */; };
+		89EFBB442194F5B40035DEC1 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFBB3E2194F5B40035DEC1 /* Coordinator.swift */; };
+		89EFBB452194F5B40035DEC1 /* UIKit-CoordinatingExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFBB3F2194F5B40035DEC1 /* UIKit-CoordinatingExtensions.swift */; };
+		89EFBB462194F5B40035DEC1 /* CoordintableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFBB402194F5B40035DEC1 /* CoordintableVC.swift */; };
 		A155C5681EFD8C2C0069380F /* SVNBootstraper.h in Headers */ = {isa = PBXBuildFile; fileRef = A155C5661EFD8C2C0069380F /* SVNBootstraper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A155C5751EFD8CAC0069380F /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C5741EFD8CAC0069380F /* Alertable.swift */; };
 		A155C57A1EFD905B0069380F /* DocumentsSearchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C5791EFD905B0069380F /* DocumentsSearchable.swift */; };
@@ -33,6 +39,12 @@
 		89EFBB352194F5370035DEC1 /* UIResponder-Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIResponder-Ext.swift"; sourceTree = "<group>"; };
 		89EFBB362194F5370035DEC1 /* UILabel-Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel-Ext.swift"; sourceTree = "<group>"; };
 		89EFBB372194F5380035DEC1 /* UImage-ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UImage-ext.swift"; sourceTree = "<group>"; };
+		89EFBB3B2194F5B30035DEC1 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationCoordinator.swift; sourceTree = "<group>"; };
+		89EFBB3C2194F5B30035DEC1 /* NeedsDependency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeedsDependency.swift; sourceTree = "<group>"; };
+		89EFBB3D2194F5B40035DEC1 /* Coordinating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinating.swift; sourceTree = "<group>"; };
+		89EFBB3E2194F5B40035DEC1 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		89EFBB3F2194F5B40035DEC1 /* UIKit-CoordinatingExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit-CoordinatingExtensions.swift"; sourceTree = "<group>"; };
+		89EFBB402194F5B40035DEC1 /* CoordintableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordintableVC.swift; sourceTree = "<group>"; };
 		A155C5631EFD8C2C0069380F /* RP_iosBootstrap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RP_iosBootstrap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A155C5661EFD8C2C0069380F /* SVNBootstraper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVNBootstraper.h; sourceTree = "<group>"; };
 		A155C5671EFD8C2C0069380F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -87,6 +99,19 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
+		89EFBB472194F5B70035DEC1 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				89EFBB3D2194F5B40035DEC1 /* Coordinating.swift */,
+				89EFBB3E2194F5B40035DEC1 /* Coordinator.swift */,
+				89EFBB402194F5B40035DEC1 /* CoordintableVC.swift */,
+				89EFBB3B2194F5B30035DEC1 /* NavigationCoordinator.swift */,
+				89EFBB3C2194F5B30035DEC1 /* NeedsDependency.swift */,
+				89EFBB3F2194F5B40035DEC1 /* UIKit-CoordinatingExtensions.swift */,
+			);
+			name = Coordinator;
+			sourceTree = "<group>";
+		};
 		A12267EB1F2FCA7B002FD589 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +139,7 @@
 		A155C5651EFD8C2C0069380F /* RP_iosBootstrap */ = {
 			isa = PBXGroup;
 			children = (
+				89EFBB472194F5B70035DEC1 /* Coordinator */,
 				89C5B7C120A8C83000528950 /* Foundation */,
 				89C5B7BC20A8C80D00528950 /* Controllers */,
 				89C5B7B920A8C7F500528950 /* Operation */,
@@ -238,17 +264,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				89EFBB392194F5380035DEC1 /* UILabel-Ext.swift in Sources */,
+				89EFBB452194F5B40035DEC1 /* UIKit-CoordinatingExtensions.swift in Sources */,
 				A155C57A1EFD905B0069380F /* DocumentsSearchable.swift in Sources */,
+				89EFBB422194F5B40035DEC1 /* NeedsDependency.swift in Sources */,
 				89EFBB382194F5380035DEC1 /* UIResponder-Ext.swift in Sources */,
 				89C5B7C920A8C85600528950 /* ReusableView.swift in Sources */,
 				89C5B7C320A8C83A00528950 /* Bundle-Extensions.swift in Sources */,
 				A155C57D1EFD909B0069380F /* KeyboardNotifiable.swift in Sources */,
+				89EFBB412194F5B40035DEC1 /* NavigationCoordinator.swift in Sources */,
 				89C5B7C820A8C85600528950 /* NibLoadable.swift in Sources */,
 				89C5B7BF20A8C81600528950 /* Embeddable.swift in Sources */,
+				89EFBB442194F5B40035DEC1 /* Coordinator.swift in Sources */,
 				A155C5751EFD8CAC0069380F /* Alertable.swift in Sources */,
 				89C5B7BB20A8C7FE00528950 /* AsyncOperation.swift in Sources */,
+				89EFBB462194F5B40035DEC1 /* CoordintableVC.swift in Sources */,
 				89C5B7CA20A8C85600528950 /* DequeableView.swift in Sources */,
 				89EFBB3A2194F5380035DEC1 /* UImage-ext.swift in Sources */,
+				89EFBB432194F5B40035DEC1 /* Coordinating.swift in Sources */,
 				A155C5871EFDACB70069380F /* UIColor-Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
