@@ -13,14 +13,16 @@ open class CoordinatableViewController: UIViewController {
   
   public init(){
     super.init(nibName: nil, bundle: nil)
-    print("init \(self)")
+    #if RP_DEBUG
+    print("\(self) deinit")
+    #endif
   }
   public required init?(coder aDecoder: NSCoder) {
     fatalError("init:coder is not supported")
   }
   
   deinit {
-    #if DEBUG_DEV || PROD_DEV
+    #if RP_DEBUG
     print("\(self) deinit")
     #endif
   }
