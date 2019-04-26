@@ -223,17 +223,18 @@
 					A155C5621EFD8C2C0069380F = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = C4P8U7398K;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = A155C55D1EFD8C2C0069380F /* Build configuration list for PBXProject "RP_iosBootstrap" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = A155C5591EFD8C2C0069380F;
 			productRefGroup = A155C5641EFD8C2C0069380F /* Products */;
@@ -421,8 +422,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -444,8 +444,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.RoseAndPine.RP-iosBootstrap";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
