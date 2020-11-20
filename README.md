@@ -87,4 +87,5 @@ To 'Framework Search Paths' in Build Settings
 ### CocoaPods
 
 RP_iOSBootstrap is available through CocoaPods. To install it, simply add the following line to your Podfile:
-	```pod 'RP_iosBootstrap', :git => "https://github.com/chamber-ds/RP_iosBootstrap.git"```
+
+    pod 'RP_iosBootstrap', :git => "https://github.com/chamber-ds/RP_iosBootstrap.git
