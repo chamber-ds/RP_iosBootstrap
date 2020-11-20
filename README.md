@@ -42,6 +42,8 @@ github "dennisweissmann/DeviceKit" ~> 1.0
 
 ## To install this framework
 
+### Carthage
+
 Add Carthage files to your .gitignore
 
     #Carthage
@@ -80,3 +82,9 @@ If Xcode has issues finding your framework Add
     $(SRCROOT)/Carthage/Build/iOS
 
 To 'Framework Search Paths' in Build Settings
+
+
+### CocoaPods
+
+RP_iOSBootstrap is available through CocoaPods. To install it, simply add the following line to your Podfile:
+	```pod 'RP_iosBootstrap', :git => "https://github.com/chamber-ds/RP_iosBootstrap.git"```
