@@ -46,6 +46,11 @@ extension Alertable where Self: UIViewController {
                                   }
     }
     alert.addAction(okButton)
+		if let popoverPresentationController = alert.popoverPresentationController {
+			popoverPresentationController.sourceView = self.view
+			popoverPresentationController.sourceRect = CGRect(x: self.view.bounds.midX, y: self.view.bounds.midY, width: 0, height: 0)
+			popoverPresentationController.permittedArrowDirections = []
+		}
     DispatchQueue.main.async {
       self.present(alert, animated: true, completion: nil)
     }
@@ -61,7 +66,11 @@ extension Alertable where Self: UIViewController {
     }
     alert.addAction(accept)
     alert.addAction(decline)
-    
+		if let popoverPresentationController = alert.popoverPresentationController {
+			popoverPresentationController.sourceView = self.view
+			popoverPresentationController.sourceRect = CGRect(x: self.view.bounds.midX, y: self.view.bounds.midY, width: 0, height: 0)
+			popoverPresentationController.permittedArrowDirections = []
+		}
     DispatchQueue.main.async {
       self.present(alert, animated: true, completion: nil)
     }
